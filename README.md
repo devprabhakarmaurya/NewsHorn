@@ -1,4 +1,4 @@
-#Make An Account on News API to get your own api key and then Replace it mine.
+# Make An Account on News API to get your own api key and then Replace it with mine.
 
 # Getting Started with Create React App
 
