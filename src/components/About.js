@@ -3,8 +3,10 @@ import React, { Component } from "react";
 export default class About extends Component {
   render() {
     return (
-      <div className="container-fluid my-3" >
-        <h1 className="text-center my-3">About News<span className="text-danger">Horn 📢</span></h1>
+      <div className="container-fluid my-3">
+        <h1 className="text-center my-3">
+          About News<span className="text-danger">Horn 📢</span>
+        </h1>
         <div className="accordion " id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header">
@@ -25,7 +27,10 @@ export default class About extends Component {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-              NewsHorn is a news application that provides users with the latest top news from various sources across the globe. It utilizes the News API to fetch up-to-date and relevant news articles.
+                NewsHorn is a news application that provides users with the
+                latest top news from various sources across the globe. It
+                utilizes the News API to fetch up-to-date and relevant news
+                articles.
               </div>
             </div>
           </div>
@@ -48,7 +53,10 @@ export default class About extends Component {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-              NewsHorn fetches the latest top news using the News API. It organizes and displays the news articles in a user-friendly and easily accessible manner, allowing users to stay informed about current events and important happenings.
+                NewsHorn fetches the latest top news using the News API. It
+                organizes and displays the news articles in a user-friendly and
+                easily accessible manner, allowing users to stay informed about
+                current events and important happenings.
               </div>
             </div>
           </div>
@@ -71,12 +79,14 @@ export default class About extends Component {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-              NewsHorn offers a convenient and efficient way to access the latest news from diverse sources. It provides a curated selection of top news articles, making it easier for users to stay updated on global events, trends, and developments.
+                NewsHorn offers a convenient and efficient way to access the
+                latest news from diverse sources. It provides a curated
+                selection of top news articles, making it easier for users to
+                stay updated on global events, trends, and developments.
               </div>
             </div>
           </div>
         </div>
-
       </div>
     );
   }

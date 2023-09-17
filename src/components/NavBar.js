@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default class NavBar extends Component {
   render() {
@@ -8,9 +8,11 @@ export default class NavBar extends Component {
         className="navbar navbar-expand-lg bg-body-tertiary "
         data-bs-theme="dark"
       >
-        <div className="container-fluid" >
+        <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <h2>News<span className="text-danger">Horn 📢</span></h2>
+            <h2>
+              News<span className="text-danger">Horn 📢</span>
+            </h2>
           </Link>
           <button
             className="navbar-toggler"
@@ -28,11 +30,6 @@ export default class NavBar extends Component {
               <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
                   Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/general">
-                  General
                 </Link>
               </li>
               <li className="nav-item">
